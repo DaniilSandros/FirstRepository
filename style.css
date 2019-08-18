@@ -1,45 +1,95 @@
-body
-{
-    margin: 0;
-    padding: 0;
-    background: #ff3772;
-    font-family: sans-serif;
+body{
+    background-image: url("photo/main.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-ul
-{
+
+
+
+
+#photo{
     position: relative;
-    width: 450px;
-    margin: 100px auto 0;
-    padding: 10px;
-    box-sizing: border-box;
+    right:8px;
+    bottom:10px;
 }
-ul li
-{
+
+#phototwo{
+    position: relative;
+    bottom: 25px;
+    right: 8px;
+}
+
+#photothree{
+    float: right;
+    
+}
+
+ul {
     display: flex;
-    background: rgba(255,255,255,.1);
-    padding: 10px 20px;
-    color: #fff;
-    margin: 5px 0;
-    transition: .5s;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+    bottom: 660px;
 
 }
-ul li:nth-child(1)
-{
-background: rgba(255, 255,255,.4)
+
+ul a{
+    color:rgb(192, 192, 192);
+    list-style: none;
+    padding: 0px 100px 0px 100px;
+    font-size: 25px;
+    transition-duration: 0.1s;
 }
-ul li:nth-child(2)
-{
-    background:rgba(255, 255,255,.2)
+
+ul li:hover{
+    transform: scaley(1.4);
 }
-ul li span:nth-child(1)
-{
-    width: 30px
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 560px;
 }
-ul li span:nth-child(2)
-{
-    width: 200px
+
+
+main p{
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 760px;
+    font-size: 20px;
 }
-ul li span:nth-child(3)
-{
-    width: 100px
+
+main h1{
+    position: relative;
+    top:10px;
+    color: white;
+}
+
+#image{
+    border: 10px solid black;
+    position: relative;
+    left: 40px;
+    bottom: 960px;
+    width: 250px;
+    height: 250px;
+}
+#images{
+    border: 10px solid black;
+    position: relative;
+    right: 234px;
+    bottom: 670px;
+    width: 250px;
+    height: 250px;
+    
+}
+#imageses{
+    border: 10px solid black;
+    position: relative;
+    left:900px;
+    bottom: 670px;
+    width: 250px;
+    height: 250px;
 }
